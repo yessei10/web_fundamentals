@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $( "#datepicker" ).datepicker();
+            $('form').submit(function(){
+                var $fname = $("#firstname").val();
+                var $lname = $("#lastname").val();
+                var $date = $("#datepicker").val();
+                if($fname == "" || $lname == "" || $date == ""){
+                    alert("Fill in the blank");
+                    return false;
+                }
+                alert("Success, " + $fname + " "+ $lname + "! Your vaccination is reserved on " + $date);
+                alert($(this).serialize());
+                return false;
+                 
+            });
+        });
+    </script>
+
+    <style>
+        .container { background-color: #62ACB5; color:#303030; font-family: Verdana; height: 500px; border-radius: 10px; padding: 10px; }
+        h1 { margin: 30px; border-bottom: 2px solid white;}
+        form { width: 400px; margin-left: 30px;}
+            label {margin: 15px 80px 15px 0px; display: inline-block;}
+            #date {margin: 15px 50px 15px 0px;}
+            #submit {width: 80px; height: 25px; font-size: 15px; margin: 20px 0px; background: rgb(92, 92, 230);color: white;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Scheduling Form for Vaccination</h1>
+        <form action="/reserve" method="post">
+            <label for="firstname">First Name: </label>
+            <input type="text" id="firstname" name="firstname">
+          
+            <label for="lastname">Last Name: </label>
+            <input type="text" id="lastname" name="lastname">
+            
+            <label id="date" for="date">Preferred Date: </label>
+            <input type="text" id="datepicker">
+            
+            <input id="submit" type="submit" value="Reserve">
+
+        </form>
+          
+    </div>
+</body>
+</html>

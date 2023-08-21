@@ -1,0 +1,91 @@
+1. output :
+0-2
+1-4
+2-6
+3-8
+
+2. output :
+2
+4
+6
+8
+
+3. output :
+A-Apple
+B-Banana
+
+4. output :
+Apple
+Banana
+
+5. output :
+A
+B
+
+6. output :
+Key is 0
+logging the value
+//missing path
+array (size=3)
+0 => string 'a1' (length=2)
+1 => string 'a2' (length=2)
+2 => string 'a3' (length=2)
+
+Key is 1
+logging the value
+//missing path
+array (size=3)
+0 => string 'b1' (length=2)
+1 => string 'b2' (length=2)
+2 => string 'b3' (length=2)
+
+Key is 2
+logging the value
+//missing path
+array (size=3)
+0 => string 'c1' (length=2)
+1 => string 'c2' (length=2)
+2 => string 'c3' (length=2)
+
+7. output :
+logging the value
+C:\wamp64\www\assignments.php:90:
+array (size=3)
+0 => string 'a1' (length=2)
+1 => string 'a2' (length=2)
+2 => string 'a3' (length=2)
+
+logging the value
+C:\wamp64\www\assignments.php:90:
+array (size=3)
+0 => string 'b1' (length=2)
+1 => string 'b2' (length=2)
+2 => string 'b3' (length=2)
+
+logging the value
+C:\wamp64\www\assignments.php:90:
+array (size=3)
+0 => string 'c1' (length=2)
+1 => string 'c2' (length=2)
+2 => string 'c3' (length=2)
+
+8. output :
+key is 0
+PH-Philippines
+KR-South Korea
+key is 1
+PHP-Philippines peso
+KRW-South Korean won
+key is 2
+Manila-Maynilad
+Seoul-Seorabeol
+
+9. output :
+PH-Philippines
+KR-South Korea
+PHP-Philippines peso
+KRW-South Korean won
+Manila-Maynilad
+Seoul-Seorabeol
+
+

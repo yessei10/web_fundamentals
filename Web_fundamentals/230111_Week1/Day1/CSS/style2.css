@@ -1,0 +1,9 @@
+p {
+    background-color: yellow;
+    display: inline-block;
+}
+
+a {
+    background-color: green;
+    display: block;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".ui-widget-header").sortable({
+                connectWith: ".ui-widget-header",
+                });
+            });
+        </script>
+        <style>
+            #droppable { min-width: 200px; min-height: 150px; padding: 0.5em; margin: 10px; border:1px solid#fbfbfb;}
+            .ui-widget-header { background: #D88D0E; display:inline-block; border-radius: 10px; text-align: center; vertical-align: top;}
+
+            #draggable { width: auto; padding: 0.5em; margin: 10px 0 10px 0; }
+            .ui-widget-content { background-color: #303030; border-radius: 5px}
+
+            .container { background-color: #62ACB5; font-family: Verdana; height: 500px; border-radius: 10px; padding: 10px; }
+            h1 { text-align: center; margin: 30px;}
+            h4 { margin: 0px; padding: 0px 15px 5px; color: #303030; font-size: 20px; border-bottom: 2px solid white;}
+            p {display: inline-block; margin: 0px; padding: 5px; font-size: 14px; color: white; vertical-align: top;}
+                img { width: 30px; border-radius: 15px;}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div id="droppable" class="ui-widget-header">
+                <h4>To-Do</h4>
+
+                <div id="draggable" class="ui-widget-content">
+                    <p>Form Validation</p><img src="p1.jpg" alt="default image" />
+                </div>
+
+                <div id="draggable" class="ui-widget-content">
+                    <p>Kanban Board II</p><img src="p2.jpg" alt="default image" />
+                </div>
+
+                <div id="draggable" class="ui-widget-content">
+                    <p>Cool Plugins</p><img src="p1.jpg" alt="default image" />
+                </div>
+            </div>
+
+            <div id="droppable" class="ui-widget-header">
+                <h4>In-Progress</h4>
+
+                <div id="draggable" class="ui-widget-content">
+                    <p>Form Validation</p><img src="p2.jpg" alt="default image" />
+                </div>
+            </div>
+
+            <div id="droppable" class="ui-widget-header">
+                <h4>For Approval</h4>
+
+                <div id="draggable" class="ui-widget-content">
+                    <p>Kanban Board</p><img src="p1.jpg" alt="default image" />
+                </div>
+            </div>
+
+            <div id="droppable" class="ui-widget-header">
+                <h4>Testing</h4>
+
+            </div>
+
+            <div id="droppable" class="ui-widget-header">
+                <h4>Done</h4>
+
+                <div id="draggable" class="ui-widget-content">
+                    <p>Background Chooser</p><img src="p1.jpg" alt="default image" />
+                </div>
+
+                <div id="draggable" class="ui-widget-content">
+                    <p>Fortune Cookie</p><img src="p2.jpg" alt="default image" />
+                </div>
+
+                <div id="draggable" class="ui-widget-content">
+                    <p>Matchy Matchy!</p><img src="p1.jpg" alt="default image" />
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

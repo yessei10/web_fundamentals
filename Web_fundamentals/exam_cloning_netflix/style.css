@@ -1,0 +1,156 @@
+.container {
+    background-color: #000000;
+    min-height: 1500px;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+    header {
+        background-image: url(net2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 750px;
+        border-bottom: 8px solid #222222;
+    }
+
+        .netlog {
+            width: 200px;
+            padding: 8px 0 0 20px;
+        }
+
+        .nav select {
+            margin: 30px 30px 0px 1030px;
+            height: 35.8px;
+            width: 92.8px;
+            background-color: #000000;
+            border-radius: 5px;
+            border-color: white;
+            color: white;
+            text-align: center;
+            vertical-align: top;
+            
+        }
+
+        .signin {
+            display: inline-block;
+            padding: 9px 19px;
+            background-color:#F40612;
+            border-radius: 5px;
+            vertical-align: top;
+            margin-top: 30px;
+        }
+
+            .signin a {
+                text-decoration: none;
+                color: white;
+            }
+
+        .head {
+            margin: 0px auto;
+            padding-top: 150px;
+            width: 800px;
+            text-align: center;
+            color:white;
+        }
+
+        .head h1 {
+            margin: 0px;
+            font-size: 65px;
+        }
+
+        .head h2 {
+            font-size: 27px;
+        }
+
+        .head h3 {
+            font-size: 18px;
+        }
+
+        .head input {
+            padding: 25px 300px 25px 10px;
+            vertical-align: bottom;
+        }
+
+        .get_bot {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            font-size: 28px;
+            padding: 19px 25px 19px 25px;
+            background-color: #F40612;
+        }
+
+    .content {
+        color:white;
+        border-bottom: 8px solid #222222;
+        margin: 0px auto;
+        padding: 50px 0px 50px 300px;
+        position: relative;
+    }
+
+        .sub_con {
+            display: inline-block;
+            width: 500px;
+            margin-top: 65px;
+            vertical-align: top;
+        }
+
+        .content h1 {
+            font-size: 40px;
+
+        }
+
+        .content h2 {
+            margin: 0px;
+            font-size: 30x;
+        }
+
+        .pic_con {
+            width: 500px;
+        }
+
+    .foot {
+        margin: 0px auto;
+        padding: 50px 0px 50px 300px;
+    }
+
+        .foot h6 a{
+            text-decoration: none;
+            font-size: 15px;
+            color:#9c9c9c;
+            margin-left: 40px;
+        }
+
+        .foot ul {
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 70px;
+        }
+
+            .foot ul li {
+                padding: 5px 0px;
+                list-style-type: none;
+            }
+
+                .foot ul li a {
+                    color:#9c9c9c;
+                    text-decoration: none;
+                    font-size: 12px;
+                }
+
+        .foot select {
+            margin: 10px 0px 10px 40px;
+            padding: 12px 20px;
+            background-color: #000000;
+            border-radius: 5px;
+            border-color: white;
+            color: white;
+            text-align: center;
+
+        }
+
+        .foot p {
+            margin-left: 40px;
+            color:#9c9c9c;
+            font-size: 12px;
+        }

@@ -1,0 +1,14 @@
+/* 3 type of selector */
+
+/* 1 element <tag> */
+p {
+    color: blue;
+}
+/* 2 specific id for a certain tag */
+#paragraph2 {
+    font-size: 40px;
+}
+/* 3 class for group */
+.text {
+    background-color: aqua;
+}

@@ -1,0 +1,60 @@
+body *{
+    outline: 1px solid blue;
+}
+
+div.container {
+    width: 980px;
+    min-height: 800px;
+    background-color: red;
+    /*--to center--*/
+    margin: 0px auto;
+}
+
+    div.container div.top {
+        min-height: 110px;
+        background-color: green;
+    }
+        div.container div.top div.logo {
+            width: 300px;
+            display: inline-block;
+        }
+        div.container div.top ul {
+            display: inline-block
+        }
+        div.container div.top ul li {
+            font-size: 24px;
+            padding: 10px;
+            display: inline-block;
+        }
+
+    div.container h1 {
+        text-align: center;
+    }
+
+    div.container div.bottom {
+        min-height: 400px;
+        background-color: yellow;
+    }
+
+        div.container div.bottom div.message {
+            display: inline-block;
+            vertical-align: top;
+            min-height: 300px;
+            width: 290px;
+            margin: 5px;
+            padding: 10px;
+            text-align: center;
+        }
+            div.container div.bottom div.message div.image {
+                height: 80px;
+            }
+            div.container div.bottom div.message a {
+                display: block;
+                background-color: rgb(220, 150, 19);
+                padding: 10px;
+                border: 1px solid black;
+                color:white;
+                text-decoration: none;
+            }
+
+

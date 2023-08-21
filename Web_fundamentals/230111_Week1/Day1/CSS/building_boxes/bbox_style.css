@@ -1,0 +1,63 @@
+/* CSS reset settings here*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/*<div> display: block (default)*/
+#wrapper{
+    /*width: can't be changed because property display:block*/
+    width: 940px;
+    background-color: #FFD9B7;
+    /* display: block(default) + margin: 0px auto = it bring wrapper position in top center*/
+    margin: 0px auto;
+    /*i add padding 20px to distribute even the size of wrapper shade color*/
+    padding: 20px;
+}
+
+#logo{
+    min-height: 130px;
+    width: 260px;
+    background-color: #B97A57;
+    display: inline-block;
+    margin: 0px 20px 20px 0px;
+}
+
+#navigation{
+    min-height: 130px;
+    width: 655px;
+    background-color: #FF7F27;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#main_content{
+    min-height: 300px;
+    width: 940px;
+    background-color: #880015;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#about{
+    min-height: 250px;
+    width: 650px;
+    background-color: #FFAEC9;
+    display: inline-block;
+    margin: 30px;
+}
+
+#advertisement{
+    min-height: 200px;
+    width: 155px;
+    background-color: #C8BFE7;
+    display: inline-block;
+    margin: 30px 0px 0px 20px;
+    vertical-align: top;
+}
+
+.sponsors{
+    min-height: 65px;
+    width: 310px;
+    background-color: #FFFF88;
+    display: inline-block;
+}

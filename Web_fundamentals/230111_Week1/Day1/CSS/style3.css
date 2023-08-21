@@ -1,0 +1,14 @@
+#p1, #p2 {
+    background-color: rgb(182, 130, 139);
+    display: inline-block;
+    width: 85px;
+    padding: 20px 50px;
+}
+
+#p3, #p4 {
+    background-color: rgb(182, 130, 139);
+    display: inline-block;
+    width: 85px;
+    margin: 10px 50px;
+    border: 1px solid black;
+}

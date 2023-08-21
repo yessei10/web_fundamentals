@@ -1,0 +1,246 @@
+/* * {
+    outline: 1px dotted red;
+} */
+
+.wrapper {
+    background-color: rgb(26, 73, 128);
+    width: 970px;
+    height: 360px;
+    margin: 0px auto;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    .wrapper header {
+        display: inline-block;
+    }
+
+    .wrapper header a img {
+        width: 235px;
+        height: 65px;
+    }
+
+    .donate_button {
+        display: inline-block;
+        background-color: #ffd343;
+        border: 1px solid whitesmoke;
+        border-radius: 10px;
+        padding: 5px 7px;
+        margin: 17px 0px 0px 291px;
+        vertical-align: top;
+
+    }
+
+        .donate_button a {
+            text-decoration: none;
+            color:rgb(34, 96, 167);
+            font-size: 13px;
+            
+        }
+    form {
+        background-color: rgb(23, 55, 92);
+        display: inline-block;
+        vertical-align: top;
+        padding: 15px;
+        border-radius: 10px 0px 0px 10px;
+        /* margin-top: 4px; */
+    }
+
+        input {
+            color: rgb(161, 161, 161);
+            
+        }
+
+        .go_button {
+            display: inline-block;
+            background-color: rgb(34, 96, 167);
+            border-radius: 6px;
+            padding: 7px;
+            margin-left: 5px;
+            
+        }
+            .go_button a {
+                text-decoration: none;
+                color: whitesmoke;
+                font-size: 12px;
+            }
+        .social {
+            display: inline-block;
+            background-color:rgb(23, 55, 92);
+            padding: 22px 15px;
+            vertical-align: top;
+            border-radius: 0px 10px 10px 0px;
+            border-left: 1px solid black;
+        }
+            .social a {
+                text-decoration: none;
+                color: whitesmoke;
+                font-size: 13px;
+            }
+
+        nav {
+            display: block;
+            background-color: rgb(34, 96, 167);
+            border-radius: 10px;
+        }
+            nav ul {
+                min-height: 20px;
+                /* font-size: 15px; */
+                text-align: center;
+                /* padding: 10px; */
+            }
+                nav ul li {
+                    display: inline-block;
+                    border: 1px solid rgb(58, 106, 160);
+                    padding: 14px;
+                    vertical-align: middle;
+                }
+                    nav ul li a {
+                        text-decoration: none;
+                        color: rgb(207, 207, 207);
+                        font-size: 15px;
+                    }
+
+        section {
+            display: inline-block;
+            width: 385px;
+        }
+
+            ul li {
+                color:  #ffd343;
+                padding-left: 60px;
+                font-weight: bold;
+                font-size: 20px;
+                list-style-type: none;
+            }
+
+            p {
+                color: rgb(207, 207, 207);
+                font-size: 11px;
+                margin-left: 100px;
+                /* display: inline-block; */
+            }
+
+            section img {
+                width: 450px;
+                position: relative;
+                /* left: 500px;
+                bottom: 284px; */
+                left: 500px;
+                bottom: 208px;
+            }
+        
+        article {
+            background-color: white;
+            min-height: 200px;
+            width: 970px;
+            margin: 0px auto;
+            padding: 20px 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+    .news {
+        display: inline-block;
+        border-top: 5px solid rgb(105, 105, 204);
+        margin: 0px;
+        padding: 0px;
+    }
+
+        .news li {
+            color: rgb(117, 117, 117);
+            font-size: 11px;
+            font-weight: normal;
+            padding: 10px 0px;
+            border-top: 1px dotted gray;
+        }
+
+        .news li a {
+            margin-left: 40px;
+            text-decoration: none;
+            color: rgb(105, 105, 204);
+        }
+
+        ul .heading1 {
+            border-top: none;
+            font-size: 15px;
+            color: rgb(75, 75, 75);
+        }
+            ul .heading1 a {
+                margin-left: 300px;
+                font-size: 10px;
+            }
+
+    .py {
+        display: inline-block;
+        border-top: 5px solid rgb(105, 105, 204);
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        left: 80px;
+    }
+
+        .py li {
+            color: rgb(60, 60, 60);
+            font-size: 11px;
+            font-weight: normal;
+            padding: 10px 0px;
+            border-top: 1px dotted gray;
+        }
+            .py li span {
+                font-weight: 700;
+            }
+
+        .py li a {
+            text-decoration: none;
+            color: rgb(117, 117, 117);
+            background-color: rgb(223, 223, 223);
+            padding: 5px;
+            font-size: 10px;
+        }
+
+        .py .heading2 {
+            border-top: none;
+            font-size: 15px;
+            color: rgb(62, 62, 62);
+        }
+            .py .heading2 a {
+                margin-left: 300px;
+                padding: 0px;
+                text-decoration: none;
+                color: rgb(105, 105, 204);
+                font-size: 10px;
+                background-color: white;
+            }
+
+    .footer {
+        background-color: rgb(26, 73, 128);
+        width: 970px;
+        min-height: 30px;
+        margin: 0px auto;
+        padding: 0px 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center ;
+    }
+
+        .footer li {
+            display: inline-block;
+            padding: 5px;
+            vertical-align: bottom;
+        }
+            .footer li a {
+                font-size: 13px;
+                color: rgb(104, 158, 221);
+                text-decoration: none;
+                font-weight: normal;
+            }
+
+                .footer li .stat {
+                    display: inline-block;
+                    background-color: rgb(70, 136, 70);
+                    padding: 5px;
+                    border-radius: 50%;
+                }
+                    .footer li span {
+                        vertical-align: top;
+                        font-size: 9px;
+                    }

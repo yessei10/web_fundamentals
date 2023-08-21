@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Indentation 1tab = 4spaces -->
+    <head>
+        <meta charset="utf-8" />
+        <title>Cheatsheet</title>
+        <meta name="description" content="compilation of tags" />
+        <link rel="stylesheet" type="text/css" href="cheatsheet_style.css" />
+    </head>
+
+    <body>
+
+        <!--Heading-->
+        <h1>Header1</h1>
+        <h2>Header2</h2>
+        <h3>Header3</h3>
+        <h4>Header4</h4>
+        <h5>Header5</h5>
+
+        <!--image-->
+        <!--src is source of file either local address or copy image address-->
+        <!--alt is alternative text for the image, which will be displayed if the image cannot be uploaded-->
+        <img src="image.jpg" alt="A beautiful sunset" />
+
+        <!--Paragraph-->
+        <p>Paragraph short/long text here</p>
+
+        <!--Breakline-->
+        <br>
+
+        <!--Ordered List-->
+        <!--1 2 3-->
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+
+        <!--Unordered List-->
+        <!-- bullet -->
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+
+        <!--This table consists of three rows and two columns-->
+        <!--the table is defined using the <table> tag-->
+        <!--The first row contains the headers <th> tag--> 
+        <!--The remaining rows contain the data <td> tag-->
+        <!--The <tr> tag is used to define a row -->
+        <table>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+            </tr>
+
+            <tr>
+                <td>Row 1, Cell 1</td>
+                <td>Row 1, Cell 2</td>
+            </tr>
+
+            <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+            </tr>
+        </table>
+        
+        <!-- <a> anchor tag-->
+        <!-- href is used for specify the link's destination (URL)-->    
+        <a href="https://www.google.com">Visit Google</a>
+
+        <!-- <div> tag can be used to group elements together-->
+        <!-- id is unique identifier that called # in css-->
+        <div id="header">
+            <h1>Welcome to my website</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+        </div>
+
+        <!-- <div> tag can be used to group elements together-->
+        <!-- class is used to group the same attribute that called . in css -->
+        <div class="container">
+            <p>This is some text inside a container</p>
+        </div>
+
+        <!-- <form>  is an element that allows a user to interact with a web page by entering data-->
+        <form>
+            <!-- <label> element is associated with the input element that has an id attribute of "name" -->
+            <!-- for attribute on the label element has a value of "name" which match the id attribute of the input element-->
+            <label for="name">Name:</label>
+            <!-- input element in HTML is used to create various types of input fields, such as text fields, checkboxes, radio buttons, and more-->
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <!-- <submit> tag appear a button-->
+            <input type="submit" value="Submit">
+            <!-- Radio buttons are used in forms to allow the user to select one option from a set of options.-->
+            <input type="radio" id="answer_yes" name="answer" value="yes" />
+            <label for="answer_yes">Yes, I would like to receive newsletter</label>
+            <br>
+            <input type="radio" id="answer_no" name="answer" value="no" />
+            <label for="answer_no">No, please do not send me newsletter</label>
+
+            <!-- checkbox allows a user to make multiple selections from a set of options -->
+            <label for="facebook">Facebook</label>
+            <input type="checkbox" id="facebook" name="website" value="facebook" />
+            <br>
+            <label for="lyka">Lyka</label>
+            <input type="checkbox" id="lyka" name="website" value="lyka" />
+            <br>
+            <label for="google">Google</label>
+            <input type="checkbox" id="google" name="website" value="google" />
+            <br>
+            <label for="referral">Referral</label>
+            <input type="checkbox" id="referral" name="website" value="referral" />
+            <br>
+
+            <!-- checkbox allows a user to make multiple selections from a set of options -->
+            <textarea name="addlnote"> </textarea>
+            <br>
+            <br>
+            <!-- checkbox allows a user to make multiple selections from a set of options -->
+            <input type="submit" value="Submit Order">
+
+        </form>
+
+
+
+
+
+
+    </body>
+
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matching</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            
+            var block = $(this).attr('data-alt-src');
+            var front = $(this).attr('src');
+
+                $('img').click(function(){
+                    if($(this).attr('src') == front){
+                        $(this).attr('src', block);
+                    } else {
+                        $(this).attr('src', front);
+                    }
+                })
+
+                let imagePath2 = ['img/zorro.jpeg']
+            let currentImage2 = $('.click2').attr('src');
+                $('.click2').click(function(){
+                    if($(this).attr('src') == currentImage2){
+                        $(this).attr('src', imagePath2);
+                    } else {
+                        $(this).attr('src', currentImage2);
+                    }
+                })
+                
+                let imagePath3 = ['img/nami.webp']
+            let currentImage3 = $('.click3').attr('src');
+                $('.click3').click(function(){
+                    if($(this).attr('src') == currentImage3){
+                        $(this).attr('src', imagePath3);
+                    } else {
+                        $(this).attr('src', currentImage3);
+                    }
+                })
+
+                let imagePath4 = ['img/usop.webp']
+            let currentImage4 = $('.click4').attr('src');
+                $('.click4').click(function(){
+                    if($(this).attr('src') == currentImage4){
+                        $(this).attr('src', imagePath4);
+                    } else {
+                        $(this).attr('src', currentImage4);
+                    }
+                })
+
+                let imagePath5 = ['img/sanji.jpeg']
+            let currentImage5 = $('.click5').attr('src');
+                $('.click5').click(function(){
+                    if($(this).attr('src') == currentImage5){
+                        $(this).attr('src', imagePath5);
+                    } else {
+                        $(this).attr('src', currentImage5);
+                    }
+                })
+
+                let imagePath6 = ['img/chopper.jpeg']
+            let currentImage6 = $('.click6').attr('src');
+                $('.click6').click(function(){
+                    if($(this).attr('src') == currentImage6){
+                        $(this).attr('src', imagePath6);
+                    } else {
+                        $(this).attr('src', currentImage6);
+                    }
+                })
+
+                let imagePath7 = ['img/robin.png']
+            let currentImage7 = $('.click7').attr('src');
+                $('.click7').click(function(){
+                    if($(this).attr('src') == currentImage7){
+                        $(this).attr('src', imagePath7);
+                    } else {
+                        $(this).attr('src', currentImage7);
+                    }
+                })
+
+                let imagePath8 = ['img/franky.png']
+            let currentImage8 = $('.click8').attr('src');
+                $('.click8').click(function(){
+                    if($(this).attr('src') == currentImage8){
+                        $(this).attr('src', imagePath8);
+                    } else {
+                        $(this).attr('src', currentImage8);
+                    }
+                })
+
+        })
+    </script>
+
+
+
+
+
+</head>
+<body>
+    <div class="container">
+        <h1>Match Me</h1>
+        <div>
+            <img src="img/question.png" class="click1" alt="">
+            <img src="img/question.png" class="click8" alt="">
+            <img src="img/question.png" class="click3" alt="">
+            <img src="img/question.png" class="click7" alt="">
+        </div>
+        <div>
+            <img src="img/question.png" class="click2" alt="">
+            <img src="img/question.png" class="click6" alt="">
+            <img src="img/question.png" class="click4" alt="">
+            <img src="img/question.png" class="click5" alt="">
+        </div>
+        <div>
+            <img src="img/question.png" class="click5" alt="">
+            <img src="img/question.png" class="click4" alt="">
+            <img src="img/question.png" class="click6" alt="">
+            <img src="img/question.png" class="click2" alt="">
+        </div>
+        <div>
+            <img src="img/question.png" class="click7" alt="">
+            <img src="img/question.png" class="click3" alt="">
+            <img src="img/question.png" class="click8" alt="">
+            <img src="img/question.png" class="click1" alt="">
+        </div>
+    </div>
+</body>
+</html>
